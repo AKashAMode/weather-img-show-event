@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b1db6c;
+}
+
+.sub-container{
+    border: 5px solid #000;
+    width: 90%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #9999ff;
+
+}
+
+
+.content-box{
+    border: 2px solid #e4dada;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #29231e;
+}
+
+.btn-group{
+    border: 2px solid #e6dddd;
+    height: 90%;
+    width: 20%;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d7e5e7;
+    border-radius: 10px;
+}
+
+.img-box{
+    border: 2px solid #e0e0e0;
+    width: 72%;
+    height: 90%;
+    margin-left: 15px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.btn-style{
+   border: none;
+    padding: 20px 0px;
+    width: 100%;
+    border-radius: 10px;   
+    font-size: 25px;
+}
+
+
+
+.btn-box{
+    width: 100%;
+}
+
+.btn-Summer{
+    background-color:#ff8533;
+}
+
+.btn-Summer:hover{
+    background-color:#722e00;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.btn-Winter{
+    background-color: #4da6ff;
+}
+
+.btn-Winter:hover{
+    background-color: #003a74;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.btn-Mansoon{
+    background-color: #ffff66;
+   
+}
+
+.btn-Mansoon:hover{
+    background-color: #868600;
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+.weather-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
